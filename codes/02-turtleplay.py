@@ -23,25 +23,8 @@
 
 
 import turtle #引入海龟图形功能包
-import random
 t = turtle.Pen() #使用海龟的画笔，这个时候t就是海龟的画笔
 t.speed(10)
-# t.forward(100) #画笔运行 其中X是距离
-
-def hz():
-    '''画一个正方形'''
-    t.forward(100)
-    t.right(90)
-    t.forward(100)
-    t.right(90)
-    t.forward(100)
-    t.right(90)
-    t.forward(100)
-    t.up()
-    t.goto(random.randint(-200,200),random.randint(-200,200))
-    t.down()
-
-
 
 def luxi(a,b):
     '''画线'''
@@ -53,11 +36,5 @@ for i in range(91):
     # hz()
     
 
-
-
-
-
-
 input()#防止终端退出
 
-# turtle.getscreen()._root.mainloop()  # <-- run the Tkinter main loop
